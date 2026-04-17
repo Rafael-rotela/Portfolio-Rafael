@@ -1,4 +1,4 @@
-/* .main-principal{
+.main-principal{
     background-color: #545D53;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     margin: auto;
     padding: 20px 0px 20px 0px ;
     border-radius: 10px;
-} */
+}
 .sobre-mim{
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@
     font-weight: bold; 
 }
 .mudanca{
-    color: var(--color-primary-3);
+    color: var(--color-primary-1);
 }
 .mudanca.cor{
     background-color: var(--color-primary-2);

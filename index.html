@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header class="nav-menu">
         <nav class="nav-bar">
@@ -28,12 +32,12 @@
             <img src="img/fotoDePerfil.jpg" alt="foto de perfil">
         </div>
         <div class="user-container-text">
-           <span>Desenvolvedor de Software</span>
+            <span>Desenvolvedor de Software</span>
             <h1>Rafael Rotela</h1>
         </div>
         <div class="links-principal">
             <a href="#" class="btn">
-                <i class="fa-brands fa-whatsapp"></i>   
+                <i class="fa-brands fa-whatsapp"></i>
             </a>
             <a href="#" class="btn">
                 <i class="fa-brands fa-linkedin"></i>
@@ -48,30 +52,66 @@
         <section class="card-informativo" id="Sobre">
             <div class="sobre-mim">
                 <h2>Desenvolvedor de <span class="mudanca cor">Software</span></h2>
-                <p> 
-                    Tenho 20 anos e tive contato com a tecnologia muito cedo. No meu segundo ano do ensino médio, tive minha primeira experiência com Python, o que me motivou a seguir essa carreira. Atualmente, estou cursando <span class="mudanca">Engenharia de Software</span> e dedico meus estudos para me tornar um desenvolvedor fullstack de alto nível. Além disso, estou em busca de novos desafios que me façam sair da zona de conforto, aprimorando assim minhas habilidades, visto que sempre fui autodidata.
+                <p>
+                    Tenho 20 anos e tive contato com a tecnologia muito cedo. No meu segundo ano do ensino médio, tive
+                    minha primeira experiência com Python, o que me motivou a seguir essa carreira. Atualmente, estou
+                    cursando <span class="mudanca">Engenharia de Software</span> e dedico meus estudos para me tornar um
+                    desenvolvedor fullstack de alto nível. Além disso, estou em busca de novos desafios que me façam
+                    sair da zona de conforto, aprimorando assim minhas habilidades, visto que sempre fui autodidata.
                 </p>
             </div>
         </section>
 
         <section class="card-informativo" id="habilidades">
             <div class="skills">
-                <span>HABILIDADES TÉCNICAS</span>
-                <h2>Tecnologias</h2>
+                <p class="subtitle">HABILIDADES TÉCNICAS</p>
+                <h2 class="container-tecnologia">Tecnologias</h2>
+                <div class="container-skills">
+                    <div class="container">
+                        <i class="fa-brands fa-js"></i>
+                        <p>Javascript</p>
+                    </div>
+                    <div class="container">
+                        <i class="fa-brands fa-python"></i>
+                        <p>Python</p>
+                    </div>
+                    <div class="container">
+                        <i class="fa-solid fa-database"></i>
+                        <p>MariaDB</p>
+                    </div>
+                    <div class="container">
+                        <i class="fa-brands fa-html5"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div class="container">
+                        <i class="fa-brands fa-css3"></i>
+                        <p>CSS</p>
+                    </div>
+                </div>
             </div>
-            <div class="container">
-                <i class="fa-brands fa-js"></i>
-                <p>Javascript</p>
+        </section>
+
+        <section class="card-informativo" id="projetos">
+            <div class="skills">
+                <p class="subtitle">
+                    <i class="fa-solid fa-briefcase"></i>
+                    Meus projetos
+                </p>
             </div>
-            <div class="container">
-                <i class="fa-brands fa-python"></i>
-                <p>Python</p>
+            <div class="container-projeto">
+                <img src="img/landing-page.png" alt="a foto descreve um site feito por mim para um restaurante"
+                    class="img-projeto">
+                <div class="projeto-descricao">
+                    <h3>Projeto landing-page</h3>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
             </div>
         </section>
 
     </main>
 
 
-    
+
 </body>
+
 </html>
