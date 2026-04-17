@@ -22,7 +22,6 @@
     font-family: 'Poppins',sans-serif;
 }
 body{
-    /* display: flex; */
     background-color: var(--color-primary-4);
 }
 ul{
@@ -31,9 +30,7 @@ ul{
 a{
     text-decoration: none;
 }
-.coluna {
-    height: 100vh; 
-    overflow-y: auto;
+.coluna{
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -41,11 +38,11 @@ a{
 }
 
 .card-informativo {
-    background-color: var(--color-primary-6); /* O verde escuro */
+    background-color: var(--color-primary-6); 
     border-radius: 20px;
     padding: 30px;
     width: 100%;
-    max-width: 400px; /* Ajuste conforme seu gosto */
-    margin: 0 auto;   /* Centraliza o card na coluna */
+    max-width: 300px; 
+    margin: 0 auto;   
     box-shadow: var(--shadow-1);
 }

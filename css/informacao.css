@@ -17,7 +17,6 @@
     padding: 20px 0;
     font-size: bold;
     font-weight: bold; 
-    font-size: 1.8rem;
 }
 .mudanca{
     color: var(--color-primary-3);
@@ -28,5 +27,5 @@
     border-radius: 10px;
     padding: 2 10px;
     display: inline-block;
-}
+} 
 
