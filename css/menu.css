@@ -1,0 +1,44 @@
+.nav-menu {
+    display: flex;
+    padding: 0px 20px;
+    justify-content: center; 
+    background-color: white;
+    margin: 50px auto;
+    height: 60px;
+    border-radius: 15px;
+    max-width: 400px; 
+    width: 90%;
+    box-shadow: var(--shadow-1);
+    animation: 0.2s ease;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.ol-nav {
+    display: flex;
+    width: 100%; 
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.item-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-menu i {
+    background-color: var(--color-primary-4);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem; 
+}       
